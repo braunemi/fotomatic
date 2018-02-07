@@ -117,6 +117,30 @@ header .mobile, header .tablet, header .tablet-logo {
     color: white;
   }
 }
+@media only screen and (max-width: 450px) {
+  header .tablet, header .tablet-logo {
+    display: none;
+  }
+  header .content {
+    padding: 0 1rem;
+    height: 3rem;
+  }
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+  header .mobile ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .mobile li {
+    padding-left: 0;
+  }
+  header .mobile .button {
+    background-color: #9dc20b;
+    padding: .1875rem .5rem;
+  }
+}
 
 /* Sign Up Section */
 
