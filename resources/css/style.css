@@ -308,7 +308,7 @@ header .mobile, header .tablet, header .tablet-logo {
     padding: 0;
   }
 
-  .feature {
+  #features-section .feature {
     margin: 1.5rem;
     padding: 1.25rem 1rem 0 1rem;
   }
@@ -319,6 +319,32 @@ header .mobile, header .tablet, header .tablet-logo {
     margin-bottom: 2.5rem;
     width: 90%;
   }
+}
+
+@media only screen and (max-width: 450px) {
+  #features-section {
+    flex-direction: column;
+  }
+  #features-section .feature {
+    margin: 0;
+    padding: 1rem 0 0 0;
+  }
+  #features-section #feature-mobile-one {
+    background-color: #f3f3f3;
+  }
+  #features-section .image-container {
+    height: 225px;
+  }
+  #features-section img {
+    position: relative;
+    bottom: 30px;
+  }
+  #features-section .content h2 {
+    text-align: center;
+    font-size: 1.125rem;
+  }
+  #features-section .content h3 {
+    font-size: .875rem;
 }
 
 /* Filters Section */
