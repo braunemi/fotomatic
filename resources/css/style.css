@@ -345,6 +345,7 @@ header .mobile, header .tablet, header .tablet-logo {
   }
   #features-section .content h3 {
     font-size: .875rem;
+  }
 }
 
 /* Filters Section */
@@ -420,6 +421,7 @@ header .mobile, header .tablet, header .tablet-logo {
   }
   #filters-section .content h3 {
     font-size: .875rem;
+  }
 }
 
 /* Quotes Section */
